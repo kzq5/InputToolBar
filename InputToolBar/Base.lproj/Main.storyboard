@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bPg-XX-k3T">
+                                <rect key="frame" x="187.5" y="300" width="187.5" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Pgh-Yp-cVH"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jn6-0C-Q00">
+                                <rect key="frame" x="187.5" y="200" width="187.5" height="60"/>
+                                <color key="backgroundColor" red="0.45098039220000002" green="0.45098039220000002" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="PL9-bp-bnc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="EWU-XP-BnY">
+                                <rect key="frame" x="187.5" y="100" width="187.5" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="bbJ-FU-0v9"/>
+                                </constraints>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xib UISearchBar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAd-IV-Wta">
+                                <rect key="frame" x="187.5" y="69" width="123" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xib UITextField" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C5m-rX-eQN">
+                                <rect key="frame" x="187.5" y="269" width="112" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="代码 UISearchBar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qK1-H1-QNQ">
+                                <rect key="frame" x="10" y="69" width="135" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="代码 UITextView" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agv-gq-e3H">
+                                <rect key="frame" x="10" y="169" width="125" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="代码 UITextField" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Asq-OW-ITr">
+                                <rect key="frame" x="10" y="269" width="124" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xib UITextView" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DL5-tM-zKd">
+                                <rect key="frame" x="187.5" y="169" width="112" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="EWU-XP-BnY" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="40k-6H-orB"/>
+                            <constraint firstItem="qK1-H1-QNQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="64P-Ez-GlH"/>
+                            <constraint firstItem="C5m-rX-eQN" firstAttribute="leading" secondItem="iAd-IV-Wta" secondAttribute="leading" id="Ef3-Ql-35W"/>
+                            <constraint firstItem="bPg-XX-k3T" firstAttribute="leading" secondItem="EWU-XP-BnY" secondAttribute="leading" id="Ja6-8p-dbf"/>
+                            <constraint firstItem="EWU-XP-BnY" firstAttribute="top" secondItem="iAd-IV-Wta" secondAttribute="bottom" constant="10" id="Mdb-BT-VZ0"/>
+                            <constraint firstItem="bPg-XX-k3T" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="300" id="Ow2-UO-9S0"/>
+                            <constraint firstItem="agv-gq-e3H" firstAttribute="leading" secondItem="qK1-H1-QNQ" secondAttribute="leading" id="PXk-Sg-Fq5"/>
+                            <constraint firstItem="Jn6-0C-Q00" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="200" id="Pls-JA-LfD"/>
+                            <constraint firstItem="Jn6-0C-Q00" firstAttribute="leading" secondItem="EWU-XP-BnY" secondAttribute="leading" id="RfB-SL-gbd"/>
+                            <constraint firstItem="agv-gq-e3H" firstAttribute="centerY" secondItem="DL5-tM-zKd" secondAttribute="centerY" id="Tae-oB-9mg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bPg-XX-k3T" secondAttribute="trailing" id="TyV-eA-2Qb"/>
+                            <constraint firstItem="DL5-tM-zKd" firstAttribute="leading" secondItem="iAd-IV-Wta" secondAttribute="leading" id="YN2-PN-ISr"/>
+                            <constraint firstItem="EWU-XP-BnY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="100" id="ayz-AA-qm4"/>
+                            <constraint firstItem="bPg-XX-k3T" firstAttribute="top" secondItem="C5m-rX-eQN" secondAttribute="bottom" constant="10" id="iNY-VB-JdQ"/>
+                            <constraint firstItem="EWU-XP-BnY" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="mNc-OJ-wcE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jn6-0C-Q00" secondAttribute="trailing" id="r8G-sK-2DV"/>
+                            <constraint firstItem="EWU-XP-BnY" firstAttribute="leading" secondItem="iAd-IV-Wta" secondAttribute="leading" id="tEe-8H-bQ9"/>
+                            <constraint firstItem="Jn6-0C-Q00" firstAttribute="top" secondItem="DL5-tM-zKd" secondAttribute="bottom" constant="10" id="tgO-lO-6WO"/>
+                            <constraint firstItem="qK1-H1-QNQ" firstAttribute="centerY" secondItem="iAd-IV-Wta" secondAttribute="centerY" id="vb9-lL-qjz"/>
+                            <constraint firstItem="Asq-OW-ITr" firstAttribute="centerY" secondItem="C5m-rX-eQN" secondAttribute="centerY" id="vlr-Ij-PdA"/>
+                            <constraint firstItem="Asq-OW-ITr" firstAttribute="leading" secondItem="qK1-H1-QNQ" secondAttribute="leading" id="xbl-zr-cgk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

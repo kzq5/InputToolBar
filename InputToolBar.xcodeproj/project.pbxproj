@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69D67A65223B4AB800E6A969 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D67A64223B4AB800E6A969 /* AppDelegate.m */; };
+		69D67A68223B4AB800E6A969 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D67A67223B4AB800E6A969 /* ViewController.m */; };
+		69D67A6B223B4AB800E6A969 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D67A69223B4AB800E6A969 /* Main.storyboard */; };
+		69D67A6D223B4ABA00E6A969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D67A6C223B4ABA00E6A969 /* Assets.xcassets */; };
+		69D67A70223B4ABA00E6A969 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D67A6E223B4ABA00E6A969 /* LaunchScreen.storyboard */; };
+		69D67A73223B4ABA00E6A969 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D67A72223B4ABA00E6A969 /* main.m */; };
+		69D67A7D223B4ABA00E6A969 /* InputToolBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D67A7C223B4ABA00E6A969 /* InputToolBarTests.m */; };
+		69D67A88223B4ABA00E6A969 /* InputToolBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D67A87223B4ABA00E6A969 /* InputToolBarUITests.m */; };
+		69D67A9C223B4AF700E6A969 /* UISearchBar+ToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D67A96223B4AF700E6A969 /* UISearchBar+ToolBar.m */; };
+		69D67A9D223B4AF700E6A969 /* UITextField+ToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D67A9A223B4AF700E6A969 /* UITextField+ToolBar.m */; };
+		69D67A9E223B4AF700E6A969 /* UITextView+ToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D67A9B223B4AF700E6A969 /* UITextView+ToolBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69D67A79223B4ABA00E6A969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69D67A58223B4AB800E6A969 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69D67A5F223B4AB800E6A969;
+			remoteInfo = InputToolBar;
+		};
+		69D67A84223B4ABA00E6A969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69D67A58223B4AB800E6A969 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69D67A5F223B4AB800E6A969;
+			remoteInfo = InputToolBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69D67A60223B4AB800E6A969 /* InputToolBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InputToolBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D67A63223B4AB800E6A969 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69D67A64223B4AB800E6A969 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69D67A66223B4AB800E6A969 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		69D67A67223B4AB800E6A969 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69D67A6A223B4AB800E6A969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69D67A6C223B4ABA00E6A969 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69D67A6F223B4ABA00E6A969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69D67A71223B4ABA00E6A969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D67A72223B4ABA00E6A969 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69D67A78223B4ABA00E6A969 /* InputToolBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InputToolBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D67A7C223B4ABA00E6A969 /* InputToolBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputToolBarTests.m; sourceTree = "<group>"; };
+		69D67A7E223B4ABA00E6A969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D67A83223B4ABA00E6A969 /* InputToolBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InputToolBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D67A87223B4ABA00E6A969 /* InputToolBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputToolBarUITests.m; sourceTree = "<group>"; };
+		69D67A89223B4ABA00E6A969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D67A96223B4AF700E6A969 /* UISearchBar+ToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISearchBar+ToolBar.m"; sourceTree = "<group>"; };
+		69D67A97223B4AF700E6A969 /* UITextView+ToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+ToolBar.h"; sourceTree = "<group>"; };
+		69D67A98223B4AF700E6A969 /* UISearchBar+ToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISearchBar+ToolBar.h"; sourceTree = "<group>"; };
+		69D67A99223B4AF700E6A969 /* UITextField+ToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+ToolBar.h"; sourceTree = "<group>"; };
+		69D67A9A223B4AF700E6A969 /* UITextField+ToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ToolBar.m"; sourceTree = "<group>"; };
+		69D67A9B223B4AF700E6A969 /* UITextView+ToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+ToolBar.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69D67A5D223B4AB800E6A969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D67A75223B4ABA00E6A969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D67A80223B4ABA00E6A969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69D67A57223B4AB800E6A969 = {
+			isa = PBXGroup;
+			children = (
+				69D67A62223B4AB800E6A969 /* InputToolBar */,
+				69D67A7B223B4ABA00E6A969 /* InputToolBarTests */,
+				69D67A86223B4ABA00E6A969 /* InputToolBarUITests */,
+				69D67A61223B4AB800E6A969 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69D67A61223B4AB800E6A969 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69D67A60223B4AB800E6A969 /* InputToolBar.app */,
+				69D67A78223B4ABA00E6A969 /* InputToolBarTests.xctest */,
+				69D67A83223B4ABA00E6A969 /* InputToolBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69D67A62223B4AB800E6A969 /* InputToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				69D67A95223B4AE100E6A969 /* Category */,
+				69D67A63223B4AB800E6A969 /* AppDelegate.h */,
+				69D67A64223B4AB800E6A969 /* AppDelegate.m */,
+				69D67A66223B4AB800E6A969 /* ViewController.h */,
+				69D67A67223B4AB800E6A969 /* ViewController.m */,
+				69D67A69223B4AB800E6A969 /* Main.storyboard */,
+				69D67A6C223B4ABA00E6A969 /* Assets.xcassets */,
+				69D67A6E223B4ABA00E6A969 /* LaunchScreen.storyboard */,
+				69D67A71223B4ABA00E6A969 /* Info.plist */,
+				69D67A72223B4ABA00E6A969 /* main.m */,
+			);
+			path = InputToolBar;
+			sourceTree = "<group>";
+		};
+		69D67A7B223B4ABA00E6A969 /* InputToolBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				69D67A7C223B4ABA00E6A969 /* InputToolBarTests.m */,
+				69D67A7E223B4ABA00E6A969 /* Info.plist */,
+			);
+			path = InputToolBarTests;
+			sourceTree = "<group>";
+		};
+		69D67A86223B4ABA00E6A969 /* InputToolBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69D67A87223B4ABA00E6A969 /* InputToolBarUITests.m */,
+				69D67A89223B4ABA00E6A969 /* Info.plist */,
+			);
+			path = InputToolBarUITests;
+			sourceTree = "<group>";
+		};
+		69D67A95223B4AE100E6A969 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				69D67A98223B4AF700E6A969 /* UISearchBar+ToolBar.h */,
+				69D67A96223B4AF700E6A969 /* UISearchBar+ToolBar.m */,
+				69D67A99223B4AF700E6A969 /* UITextField+ToolBar.h */,
+				69D67A9A223B4AF700E6A969 /* UITextField+ToolBar.m */,
+				69D67A97223B4AF700E6A969 /* UITextView+ToolBar.h */,
+				69D67A9B223B4AF700E6A969 /* UITextView+ToolBar.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69D67A5F223B4AB800E6A969 /* InputToolBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69D67A8C223B4ABA00E6A969 /* Build configuration list for PBXNativeTarget "InputToolBar" */;
+			buildPhases = (
+				69D67A5C223B4AB800E6A969 /* Sources */,
+				69D67A5D223B4AB800E6A969 /* Frameworks */,
+				69D67A5E223B4AB800E6A969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InputToolBar;
+			productName = InputToolBar;
+			productReference = 69D67A60223B4AB800E6A969 /* InputToolBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69D67A77223B4ABA00E6A969 /* InputToolBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69D67A8F223B4ABA00E6A969 /* Build configuration list for PBXNativeTarget "InputToolBarTests" */;
+			buildPhases = (
+				69D67A74223B4ABA00E6A969 /* Sources */,
+				69D67A75223B4ABA00E6A969 /* Frameworks */,
+				69D67A76223B4ABA00E6A969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69D67A7A223B4ABA00E6A969 /* PBXTargetDependency */,
+			);
+			name = InputToolBarTests;
+			productName = InputToolBarTests;
+			productReference = 69D67A78223B4ABA00E6A969 /* InputToolBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69D67A82223B4ABA00E6A969 /* InputToolBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69D67A92223B4ABA00E6A969 /* Build configuration list for PBXNativeTarget "InputToolBarUITests" */;
+			buildPhases = (
+				69D67A7F223B4ABA00E6A969 /* Sources */,
+				69D67A80223B4ABA00E6A969 /* Frameworks */,
+				69D67A81223B4ABA00E6A969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69D67A85223B4ABA00E6A969 /* PBXTargetDependency */,
+			);
+			name = InputToolBarUITests;
+			productName = InputToolBarUITests;
+			productReference = 69D67A83223B4ABA00E6A969 /* InputToolBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69D67A58223B4AB800E6A969 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = kangxx;
+				TargetAttributes = {
+					69D67A5F223B4AB800E6A969 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					69D67A77223B4ABA00E6A969 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 69D67A5F223B4AB800E6A969;
+					};
+					69D67A82223B4ABA00E6A969 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 69D67A5F223B4AB800E6A969;
+					};
+				};
+			};
+			buildConfigurationList = 69D67A5B223B4AB800E6A969 /* Build configuration list for PBXProject "InputToolBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69D67A57223B4AB800E6A969;
+			productRefGroup = 69D67A61223B4AB800E6A969 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69D67A5F223B4AB800E6A969 /* InputToolBar */,
+				69D67A77223B4ABA00E6A969 /* InputToolBarTests */,
+				69D67A82223B4ABA00E6A969 /* InputToolBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69D67A5E223B4AB800E6A969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D67A70223B4ABA00E6A969 /* LaunchScreen.storyboard in Resources */,
+				69D67A6D223B4ABA00E6A969 /* Assets.xcassets in Resources */,
+				69D67A6B223B4AB800E6A969 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D67A76223B4ABA00E6A969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D67A81223B4ABA00E6A969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69D67A5C223B4AB800E6A969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D67A68223B4AB800E6A969 /* ViewController.m in Sources */,
+				69D67A73223B4ABA00E6A969 /* main.m in Sources */,
+				69D67A65223B4AB800E6A969 /* AppDelegate.m in Sources */,
+				69D67A9C223B4AF700E6A969 /* UISearchBar+ToolBar.m in Sources */,
+				69D67A9D223B4AF700E6A969 /* UITextField+ToolBar.m in Sources */,
+				69D67A9E223B4AF700E6A969 /* UITextView+ToolBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D67A74223B4ABA00E6A969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D67A7D223B4ABA00E6A969 /* InputToolBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D67A7F223B4ABA00E6A969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D67A88223B4ABA00E6A969 /* InputToolBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69D67A7A223B4ABA00E6A969 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69D67A5F223B4AB800E6A969 /* InputToolBar */;
+			targetProxy = 69D67A79223B4ABA00E6A969 /* PBXContainerItemProxy */;
+		};
+		69D67A85223B4ABA00E6A969 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69D67A5F223B4AB800E6A969 /* InputToolBar */;
+			targetProxy = 69D67A84223B4ABA00E6A969 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69D67A69223B4AB800E6A969 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69D67A6A223B4AB800E6A969 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69D67A6E223B4ABA00E6A969 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69D67A6F223B4ABA00E6A969 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69D67A8A223B4ABA00E6A969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		69D67A8B223B4ABA00E6A969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69D67A8D223B4ABA00E6A969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InputToolBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kangxx.InputToolBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69D67A8E223B4ABA00E6A969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InputToolBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kangxx.InputToolBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		69D67A90223B4ABA00E6A969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InputToolBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kangxx.InputToolBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InputToolBar.app/InputToolBar";
+			};
+			name = Debug;
+		};
+		69D67A91223B4ABA00E6A969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InputToolBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kangxx.InputToolBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InputToolBar.app/InputToolBar";
+			};
+			name = Release;
+		};
+		69D67A93223B4ABA00E6A969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InputToolBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kangxx.InputToolBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InputToolBar;
+			};
+			name = Debug;
+		};
+		69D67A94223B4ABA00E6A969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InputToolBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kangxx.InputToolBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InputToolBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69D67A5B223B4AB800E6A969 /* Build configuration list for PBXProject "InputToolBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D67A8A223B4ABA00E6A969 /* Debug */,
+				69D67A8B223B4ABA00E6A969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69D67A8C223B4ABA00E6A969 /* Build configuration list for PBXNativeTarget "InputToolBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D67A8D223B4ABA00E6A969 /* Debug */,
+				69D67A8E223B4ABA00E6A969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69D67A8F223B4ABA00E6A969 /* Build configuration list for PBXNativeTarget "InputToolBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D67A90223B4ABA00E6A969 /* Debug */,
+				69D67A91223B4ABA00E6A969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69D67A92223B4ABA00E6A969 /* Build configuration list for PBXNativeTarget "InputToolBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D67A93223B4ABA00E6A969 /* Debug */,
+				69D67A94223B4ABA00E6A969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69D67A58223B4AB800E6A969 /* Project object */;
+}
